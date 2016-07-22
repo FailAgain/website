@@ -1,0 +1,71 @@
+body{
+  background: linear-gradient(117deg, hsl(216, 100%, 50%),hsl(294, 83%, 21%) );
+  font-family: Helvetica Neue;
+  margin: 0;
+}
+
+[sheetDiv]{
+  margin: 3vmax;
+}
+
+h1{
+    color: white;
+    font-weight: 300;
+    font-size: 5vmax;
+}
+
+p{
+  font-size: 3vmax;
+  color: hsla(100,100%,100%,.6);
+}
+
+[colorwhite]{
+  color: white;
+}
+
+[weights700]{
+  font-weight: 700;
+}
+
+[sheetLogo]{
+  width: 20vmax;
+  height: 20vmax;
+}
+
+[sheetdivision]{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+[imgproduct]{
+  max-width: 300px;
+  max-height: 300px;
+  -webkit-filter: hue-rotate(-330deg);
+  border-radius: 1rem;
+  margin: 2rem;
+}
+
+[sheetside]{
+  position: absolute;
+  left: 0;
+  top: 10vmax;
+}
+
+[ACTitle]{
+  font-family: Serif;
+  color: black;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2{
+  margin: 1vw;
+  height: 30vw;
+  width: 30vmax;
+  background: white;
+  border: black;
+}

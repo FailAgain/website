@@ -1,0 +1,38 @@
+<head>
+    <title>failagain.co</title>
+</head>
+
+<body>
+    {{> sheet color=color}}
+</body>
+
+<template name="sheet">
+<img headersplash height="100%" width="100%" type="image/svg+xml" src="failagainwindow.svg">
+    <div sheetDiv>
+
+        <h1>Fail and gain.</h1>
+        <h1>We've got a message for you. <br>We're here to make it happen. <br>We're called failagain.</h1>
+        <p>
+            <span colorwhite weights700> Skills/</span> 3D Printing Prototyping Direction Development Design Dialogue
+        </p>
+        <p>
+            <span colorwhite weights700> Policy/</span>
+We are never okay with tip-toeing. We do pass on contracts to other companies if they are too small or it’s not a good fit for us.
+        </p>
+        <p>
+            <span colorwhite weights700>Buy Goods/</span>
+We sell creative 3D-printed sculptures and toys.
+    </p>
+<div sheetdivision>
+  <img imgproduct src="productwindow.png">
+  <img imgproduct src="product2window.png">
+</div>
+    </div>
+
+</template>
+<template name="text">
+</template>
+<template name="hello">
+    <button {{visible}}>Click Me {{textfromch1}} </button>
+    <h1 {{visible}}>have some fucking hipster fun<button>Click Me</button></h1>
+</template>
